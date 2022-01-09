@@ -18061,6 +18061,10 @@ var images = function images() {
       imgPopap.style.display = 'flex';
       var path = target.parentNode.getAttribute('href');
       bigImage.setAttribute('src', path);
+      bigImage.style.maxHeight = '90%';
+      bigImage.style.maxWidth = '90%';
+      bigImage.style.borderRadius = '5px';
+      bigImage.style.margin = '0';
       document.body.style.overflow = 'hidden';
     }
 
